@@ -1,0 +1,12 @@
+#crx-content-root .crx-content-reaction:hover {
+  text-decoration: none;
+}
+
+#crx-content-root .crx-content-reaction .social-reaction-summary-item {
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 13px;
+  column-gap: 0.4rem;
+}

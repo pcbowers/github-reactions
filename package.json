@@ -1,0 +1,33 @@
+{
+  "name": "github-reactions",
+  "description": "A browser extension that shows a summary of reactions to GitHub issues and pull requests",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "P Christopher Bowers",
+  "license": "MIT",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "2.0.0-beta.16",
+    "@types/chrome": "^0.0.235",
+    "@types/react": "^18.2.2",
+    "@types/react-dom": "^18.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

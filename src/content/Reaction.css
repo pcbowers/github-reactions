@@ -1,0 +1,5 @@
+#crx-content-root .crx-content-reaction .social-reaction-summary-item div {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}

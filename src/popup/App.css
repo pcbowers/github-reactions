@@ -1,0 +1,56 @@
+#crx-popup-root {
+  padding: 1rem;
+}
+
+#crx-popup-root .card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  filter: none;
+  will-change: filter;
+  transition: filter 250ms;
+  filter: drop-shadow(-2rem 0 2.5rem #cca12a);
+}
+
+#crx-popup-root .card:hover {
+  filter: drop-shadow(-2rem 0 2.5rem #ffd766);
+}
+
+#crx-popup-root .logo {
+  height: 6em;
+}
+
+#crx-popup-root .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+@media (prefers-color-scheme: light) {
+  #crx-popup-root .card {
+    filter: drop-shadow(-1rem 0 2.5rem #ffd766);
+  }
+
+  #crx-popup-root .card:hover {
+    filter: drop-shadow(-1rem 0 2.5rem #cca12a);
+  }
+}
+
+#crx-popup-root h1 {
+  margin: 0;
+  width: 8.5ch;
+}
+
+#crx-popup-root p {
+  margin: 0;
+}
+
+#crx-popup-root a.unstyled {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#crx-popup-root a.unstyled:hover {
+  color: inherit;
+}

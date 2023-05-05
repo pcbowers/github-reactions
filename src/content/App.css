@@ -1,0 +1,16 @@
+#crx-content-root #crx-content-posts {
+  position: relative;
+  max-height: calc(100vh - 130px);
+  height: 100%;
+  padding-right: 5px;
+  overflow-y: auto;
+}
+
+#crx-content-root .discussion-sidebar-heading > a {
+  color: inherit;
+}
+
+#crx-content-root .discussion-sidebar-heading > a:hover {
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}

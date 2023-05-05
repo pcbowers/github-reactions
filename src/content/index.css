@@ -1,0 +1,12 @@
+/* #partial-discussion-sidebar {
+  height: auto !important;
+} */
+
+#discussion-sidebar-item {
+  position: relative;
+}
+
+#crx-content-root {
+  position: sticky;
+  top: 70px;
+}
